@@ -15,7 +15,7 @@
             // Create default categories
             Category::factory()->create([
                 'name' => 'Sexy Lingerie',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 0,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -26,7 +26,7 @@
 
                 Category::factory()->create([
                     'name' => 'Bras / Panties',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -37,7 +37,7 @@
 
                 Category::factory()->create([
                     'name' => 'Garter Sets',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -48,7 +48,7 @@
 
                 Category::factory()->create([
                     'name' => 'Teddy / Bodysuits',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -59,7 +59,7 @@
 
                 Category::factory()->create([
                     'name' => 'Babydoll / Chemise',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -70,7 +70,7 @@
 
                 Category::factory()->create([
                     'name' => 'Camisoles',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -81,7 +81,7 @@
 
                 Category::factory()->create([
                     'name' => 'Gowns / Robes',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -92,7 +92,7 @@
 
                 Category::factory()->create([
                     'name' => 'Sleepwear',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -103,7 +103,7 @@
 
                 Category::factory()->create([
                     'name' => 'Panties / Thongs',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -114,7 +114,7 @@
 
                 Category::factory()->create([
                     'name' => 'Leather / Faux Leather',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -125,7 +125,7 @@
 
                 Category::factory()->create([
                     'name' => 'Tutus / Skirts',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -136,7 +136,7 @@
 
                 Category::factory()->create([
                     'name' => 'Bridal Lingerie',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 1,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -147,7 +147,7 @@
 
             Category::factory()->create([
                 'name' => 'Corsets / Bustiers',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 0,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -158,7 +158,7 @@
 
                 Category::factory()->create([
                     'name' => 'Lace Corsets',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -169,7 +169,7 @@
 
                 Category::factory()->create([
                     'name' => 'Corset Dresses',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -180,7 +180,7 @@
 
                 Category::factory()->create([
                     'name' => 'Underbust Corsets',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -191,7 +191,7 @@
 
                 Category::factory()->create([
                     'name' => 'Leather / Faux Leather Corsets',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -202,7 +202,7 @@
 
                 Category::factory()->create([
                     'name' => 'Steel Boned Corsets',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -213,7 +213,7 @@
 
                 Category::factory()->create([
                     'name' => 'Latex Corsets',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -224,7 +224,7 @@
 
                 Category::factory()->create([
                     'name' => 'Bridal Corsets',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -235,7 +235,7 @@
 
                 Category::factory()->create([
                     'name' => 'Zipper Corsets',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -246,7 +246,7 @@
 
                 Category::factory()->create([
                     'name' => 'Shape Wear',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -257,7 +257,7 @@
 
                 Category::factory()->create([
                     'name' => 'Waist Trainers',
-                    'status' => 'active',
+                    'status' => 1,
                     'parent_id' => 2,
                     'added_by' => 1,
                     'updated_by' => 1,
@@ -268,7 +268,7 @@
 
         Category::factory()->create([
             'name' => 'Dancewear',
-            'status' => 'active',
+            'status' => 1,
             'parent_id' => 0,
             'added_by' => 1,
             'updated_by' => 1,
@@ -279,7 +279,7 @@
 
         Category::factory()->create([
             'name' => 'Bra Sets',
-            'status' => 'active',
+            'status' => 1,
             'parent_id' => 0,
             'added_by' => 1,
             'updated_by' => 1,
@@ -290,7 +290,7 @@
 
             Category::factory()->create([
                 'name' => 'Push Up Bras',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 4,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -301,7 +301,7 @@
 
             Category::factory()->create([
                 'name' => 'Demi Bras',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 4,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -312,7 +312,7 @@
 
             Category::factory()->create([
                 'name' => 'Bralettes',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 4,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -323,7 +323,7 @@
 
             Category::factory()->create([
                 'name' => 'Unlined Bras',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 4,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -334,7 +334,7 @@
 
         Category::factory()->create([
             'name' => 'Swimwear',
-            'status' => 'active',
+            'status' => 1,
             'parent_id' => 0,
             'added_by' => 1,
             'updated_by' => 1,
@@ -345,7 +345,7 @@
 
             Category::factory()->create([
                 'name' => 'Bikinis',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 5,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -356,7 +356,7 @@
 
             Category::factory()->create([
                 'name' => 'One Piece Swimsuits',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 5,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -367,7 +367,7 @@
 
             Category::factory()->create([
                 'name' => 'Bandeau Tops',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 5,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -378,7 +378,7 @@
 
             Category::factory()->create([
                 'name' => 'Cover Ups',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 5,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -389,7 +389,7 @@
 
         Category::factory()->create([
             'name' => 'Clubwear',
-            'status' => 'active',
+            'status' => 1,
             'parent_id' => 0,
             'added_by' => 1,
             'updated_by' => 1,
@@ -400,7 +400,7 @@
 
             Category::factory()->create([
                 'name' => 'Mini Dresses',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 6,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -411,7 +411,7 @@
 
             Category::factory()->create([
                 'name' => 'Bodycon Dresses',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 6,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -422,7 +422,7 @@
 
             Category::factory()->create([
                 'name' => 'Jumpsuits / Rompers',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 6,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -433,7 +433,7 @@
 
             Category::factory()->create([
                 'name' => 'Sexy / Long Dresses',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 6,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -444,7 +444,7 @@
 
         Category::factory()->create([
             'name' => 'Stockings / Gloves',
-            'status' => 'active',
+            'status' => 1,
             'parent_id' => 0,
             'added_by' => 1,
             'updated_by' => 1,
@@ -455,7 +455,7 @@
 
             Category::factory()->create([
                 'name' => 'Pantyhose / Tights',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 7,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -466,7 +466,7 @@
 
             Category::factory()->create([
                 'name' => 'Stockings',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 7,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -477,7 +477,7 @@
 
             Category::factory()->create([
                 'name' => 'Gloves',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 7,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -488,7 +488,7 @@
 
             Category::factory()->create([
                 'name' => 'Bodystockings',
-                'status' => 'active',
+                'status' => 1,
                 'parent_id' => 7,
                 'added_by' => 1,
                 'updated_by' => 1,
@@ -499,7 +499,7 @@
 
         Category::factory()->create([
             'name' => 'Costumes',
-            'status' => 'active',
+            'status' => 1,
             'parent_id' => 0,
             'added_by' => 1,
             'updated_by' => 1,

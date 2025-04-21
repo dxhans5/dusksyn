@@ -21,6 +21,7 @@
                 'password' => bcrypt(env('DEFAULT_ADMIN_PASSWORD', '123456')),
                 'email_verified_at' => now(),
                 'remember_token' => null,
+                'status' => 1,
             ]);
         }
     }

@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('brand_id')->nullable();
             $table->string('vendor_id')->nullable(); // Supplier ID or name
             $table->string('image_collection_id')->nullable();
-            $table->string('status')->default('active'); // active, inactive, discontinued
+            $table->integer('status')->default(1); // 1=active, 2=inactive, 3=discontinued
             $table->string('added_by')->nullable(); // User ID of the person who added the product
             $table->string('updated_by')->nullable(); // User ID of the person who last updated the product
             $table->timestamps();

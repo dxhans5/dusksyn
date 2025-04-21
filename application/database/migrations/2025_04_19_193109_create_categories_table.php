@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
             $table->string('name')->unique();
-            $table->string('status')->default('active'); // active, inactive
+            $table->string('status')->default(1); // 1=active, 2=inactive
             $table->bigInteger('parent_id')->default(0); // ID of the parent category, 0 if no parent
             $table->string('store_id')->default(env('STORE_ID', 'UNK')); // Default store ID for the category
             $table->string('added_by')->nullable(); // User ID of the person who added the product

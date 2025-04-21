@@ -14,6 +14,7 @@
                     <th>ID</th>
                     <th>Name</th>
                     <th>Email</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,6 +23,7 @@
                         <td>{{ $user->id }}</td>
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->email }}</td>
+                        <td>{{ $user->status }}</td>
                         <td>
                             <a href="{{ route('admin.users.edit', $user->id) }}" class="btn btn-warning">Edit</a>
                             <form action="{{ route('admin.users.delete', $user->id) }}" method="POST" style="display:inline;">
