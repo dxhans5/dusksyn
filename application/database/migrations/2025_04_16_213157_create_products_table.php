@@ -26,9 +26,9 @@ return new class extends Migration
             $table->string('status')->default('active'); // active, inactive, discontinued
             $table->string('added_by')->nullable(); // User ID of the person who added the product
             $table->string('updated_by')->nullable(); // User ID of the person who last updated the product
-            $table->string('deleted_by')->nullable(); // User ID of the person who deleted the product
-            $table->timestamp('added_at')->nullable();
             $table->timestamps();
+            $table->softDeletes(); // Soft delete column
+            $table->string('deleted_by')->nullable(); // User ID of the person who deleted the product
         });
     }
 

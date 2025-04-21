@@ -30,20 +30,6 @@ class ProductController extends Controller
     }
 
     /**
-     * Edit a product
-     *
-     * @param Request $request
-     * @return \Illuminate\View\View|\Illuminate\Http\RedirectResponse
-     */
-    public function edit(Request $request) {
-        $product = Product::find($request->id);
-        if (!$product) {
-            return redirect()->route('admin.products.dashboard')->with('error', 'Product not found');
-        }
-        return view('admin.products.edit')->with('product', $product);
-    }
-
-    /**
      * Add a new product
      *
      * @param Request $request
@@ -61,6 +47,7 @@ class ProductController extends Controller
             'category_id' => 'nullable|string',
             'brand_id' => 'nullable|string',
             'vendor_id' => 'nullable|string',
+            'status' => 'required|string|in:active,inactive,discontinued',
             // Add other fields as necessary
         ]);
 
@@ -77,10 +64,26 @@ class ProductController extends Controller
         $product->vendor_id = $request->vendor_id;
         // Add other fields as necessary
         $product->added_by = auth()->user()->id;
-        $product->added_at = now();
+        $product->updated_by = auth()->user()->id;
+        $product->created_at = now();
+        $product->updated_at = now();
         $product->save();
         // redirect to the dashboard with success message
         return redirect()->route('admin.products.dashboard')->with('success', 'Product added successfully');
+    }
+
+    /**
+     * Edit a product
+     *
+     * @param Request $request
+     * @return \Illuminate\View\View|\Illuminate\Http\RedirectResponse
+     */
+    public function edit(Request $request) {
+        $product = Product::find($request->id);
+        if (!$product) {
+            return redirect()->route('admin.products.dashboard')->with('error', 'Product not found');
+        }
+        return view('admin.products.edit')->with('product', $product);
     }
 
     /**

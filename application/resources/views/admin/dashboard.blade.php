@@ -1,4 +1,4 @@
-@extends('admin.layout')
+@include('admin.side_navigation')
 
 <div class="container">
     <h1>Dashboard</h1>
