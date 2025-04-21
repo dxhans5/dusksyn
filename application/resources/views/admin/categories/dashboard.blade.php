@@ -26,7 +26,7 @@
                     <tr>
                         <td>{{ $category->id }}</td>
                         <td>{{ $category->name }}</td>
-                        <td>{{ $category->parent_id ? $category->parent->name : '' }}</td>
+                        <td>{{ $category->parent_id }}</td>
                         <td>...</td>
                         <td>{{ $category->status }}</td>
                         <td>{{ $category->added_by }}</td>
